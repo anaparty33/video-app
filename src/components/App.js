@@ -12,20 +12,6 @@ const App = () => {
     console.log(videos[0]);
     setSelectedVideo(videos[0]);
   }, [videos]);
-  // setSelectedVideo(videos[0]);
-  // useEffect(() => {
-  //   onSearchSubmit("songs");
-  // }, []);
-
-  // const onSearchSubmit = async (searchVideo) => {
-  //   const res = await youtubeAPI.get("/search", {
-  //     params: {
-  //       q: searchVideo,
-  //     },
-  //   });
-  //   console.log(res.data.items);
-
-  //   setVideos(res.data.items);
 
   return (
     <div className="ui container">
